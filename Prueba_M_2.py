@@ -368,6 +368,7 @@ def TrainningNN(X_train, X_test, y_train, y_test):
     return NN_model
 
 def predictionForm(modelNN):
+    option_age = [18:75]
     option_sex = ['male', 'female']
     option_job = [0,1,2,3]
     option_housing = ['own', 'rent']
